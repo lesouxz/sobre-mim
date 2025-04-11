@@ -1,0 +1,62 @@
+/* CSS - Externo */
+body {
+    font-family:'Times New Roman', 'Times', serif;
+}
+
+h1 {
+    font-size: 2em; /* 1rem = 16px  1em = 'M'*/
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+
+
+header {
+    background-color: #0077b6;
+    padding: 1rem 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: sticky; /* pode ser necessário top, left, bottom ou right */
+    top: 0;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+header a {
+    color: #ffffff;
+    font-weight: 700;
+    padding: .5rem 1rem;
+}
+
+header a:hover {
+    background-color: #023e8a;
+}
+
+section {
+    /*margin-top: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;*/
+    margin: 1rem;
+    padding: 1rem;
+    /* border-width: 1px;
+    border-style: solid;
+    border-color: #000; */
+    border: 1px solid #000;
+}
+
+section:hover {
+    background-color: #bd84efe9;
+}
+
+
+p {
+    margin-bottom: 1rem;
+}
